@@ -1,0 +1,87 @@
+# OSX
+#
+.DS_Store
+
+# Xcode
+#
+build/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
+*.xccheckout
+*.moved-aside
+DerivedData
+*.hmap
+*.ipa
+*.xcuserstate
+
+# Android/IntelliJ/Webstorm/VSCode
+#
+build/
+.idea
+.gradle
+local.properties
+*.iml
+*.hprof
+.vscode
+
+# Node
+#
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Yarn
+#
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+
+# BUCK
+#
+buck-out/
+\.buckd/
+*.keystore
+!debug.keystore
+
+# Fstlane
+#
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/supply.json
+
+# Bundle artifact
+#
+*.jsbundle
+
+# Ruby / CocoaPods
+#
+/ios/Pods/
+/vendor/bundle/
+
+# Jest
+#
+/jest/cache/
+/jest/coverage/
+
+# Env
+#
+.env
+.env.alpha
+.env.beta
+.env.production
+
+# react-native-config codegen
+#
+ios/tmp.xcconfig

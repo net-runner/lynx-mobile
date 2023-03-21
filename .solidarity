@@ -1,0 +1,80 @@
+{
+	"$schema": "http://json.schemastore.org/solidaritySchema",
+	"requirements": {
+		"Node": [
+			{
+				"rule": "cli",
+				"binary": "node",
+				"semver": "16.13.0"
+			}
+		],
+		"Java": [
+			{
+				"rule": "cli",
+				"binary": "java",
+				"semver": "15.0.5"
+			}
+		],
+		"Ruby": [
+        	{
+        		"rule": "cli",
+        		"binary": "ruby",
+        		"semver": "2.7.4"
+        	}
+        ],
+		"Python": [
+			{
+        		"rule": "cli",
+                "binary": "python",
+                "version": "-V",
+                "semver": "3.10.4"
+        	},
+		],
+		"Watchman": [
+			{
+				"rule": "cli",
+				"binary": "watchman",
+				"error": "Please install watchman on this machine. Refer to the official Watchman installation instructions for additional help.",
+				"platform": [
+					"darwin",
+					"linux"
+				]
+			}
+		],
+		"Yarn": [
+			{
+				"rule": "cli",
+				"binary": "yarn",
+				"version": "--version",
+				"semver": "1.22.17"
+			}
+		],
+		"CocoaPods": [
+			{
+				"rule": "dir",
+				"location": "./ios/Pods"
+			}
+		],
+		"Android": [
+			{
+				"rule": "env",
+				"variable": "ANDROID_HOME",
+				"error": "The ANDROID_HOME environment variable must be set to your local SDK. Refer to getting started docs for help."
+			},
+		],
+		"Xcode": [
+			{
+				"rule": "cli",
+				"binary": "xcodebuild",
+				"semver": "13.4",
+				"platform": "darwin"
+			},
+			{
+				"rule": "cli",
+				"binary": "xcrun",
+				"semver": "61",
+				"platform": "darwin"
+			}
+		]
+	}
+}
