@@ -14,7 +14,7 @@ const InfoPanel = ({text, size}: Props) => {
 	return (
 		<Wrapper>
 			<LinkIconFlavor position={'top'} />
-			<Logo width={size || INITAL_LOGO_SIZE} height={size || INITAL_LOGO_SIZE} />
+			<Logo width={size || INITAL_LOGO_SIZE} height={size || INITAL_LOGO_SIZE} testID={'logo'} />
 			<H1>{text}</H1>
 			<LinkIconFlavor position={'bottom'} />
 		</Wrapper>

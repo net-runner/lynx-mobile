@@ -10,7 +10,7 @@ type Props = {
 };
 export const PrimaryButton = ({title, onPress, style}: Props) => {
 	return (
-		<ButtonContainer style={style} onPress={onPress}>
+		<ButtonContainer style={style} onPress={onPress} testID={'primary-button'}>
 			<ButtonText>{title}</ButtonText>
 		</ButtonContainer>
 	);

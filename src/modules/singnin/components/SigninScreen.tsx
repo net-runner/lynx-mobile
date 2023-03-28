@@ -35,6 +35,7 @@ export const SigninScreen = () => {
 					name="email"
 					render={({field: {onChange, value}}) => (
 						<OutlineInput
+							testID={'email-input'}
 							keyboardType={'email-address'}
 							autoCapitalize="none"
 							value={value}
@@ -51,6 +52,7 @@ export const SigninScreen = () => {
 					name="password"
 					render={({field: {onChange, value}}) => (
 						<OutlineInput
+							testID={'password-input'}
 							secureTextEntry
 							value={value}
 							onChangeText={(text: string) => onChange(text)}

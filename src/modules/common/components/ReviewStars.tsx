@@ -38,7 +38,7 @@ export const ReviewStars: React.FC<Props> = ({rating, isInput, onChange}) => {
 		}
 		return stars;
 	};
-	return <StarWrapper>{stars()}</StarWrapper>;
+	return <StarWrapper testID={'review-stars'}>{stars()}</StarWrapper>;
 };
 
 const StarWrapper = styled.View`
