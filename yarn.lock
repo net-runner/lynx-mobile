@@ -2272,10 +2272,10 @@
   resolved "https://registry.npmjs.org/@types/prop-types/-/prop-types-15.7.4.tgz"
   integrity sha512-rZ5drC/jWjrArrS8BR6SIr4cWpW09RNTYt9AMZo3Jwwif+iacXAqgVjm0B0Bv/S1jhDXKHqRVNCbACkJ89RAnQ==
 
-"@types/react-native@^0.67.8":
-  version "0.67.8"
-  resolved "https://registry.npmjs.org/@types/react-native/-/react-native-0.67.8.tgz"
-  integrity sha512-xA8rYiTHvO6RoZv/LFnmEeqRuhA2y34mGB8zX3bGHe/pCt9jEStUPyUO4q1KcDc9GiGIOBD8ArfRtThprAjSfQ==
+"@types/react-native@^0.71.5":
+  version "0.71.5"
+  resolved "https://registry.yarnpkg.com/@types/react-native/-/react-native-0.71.5.tgz#229bc670433f97fe1e03d62758d4fccf34a07714"
+  integrity sha512-Tp5druh7DGwNDvWYH09PCE++hbH4zYz0OOvGFb3/QFIFKXgfezaT/txJeKlBkbiqs45QJzllp9S0qo0WpWyijA==
   dependencies:
     "@types/react" "*"
 
@@ -7338,10 +7338,10 @@ react-native-config@^1.4.6:
   resolved "https://registry.npmjs.org/react-native-config/-/react-native-config-1.4.6.tgz"
   integrity sha512-cSLdOfva2IPCxh6HjHN1IDVW9ratAvNnnAUx6ar2Byvr8KQU7++ysdFYPaoNVuJURuYoAKgvjab8ZcnwGZIO6Q==
 
-react-native-flipper@^0.150.0:
-  version "0.150.0"
-  resolved "https://registry.npmjs.org/react-native-flipper/-/react-native-flipper-0.150.0.tgz"
-  integrity sha512-E9NLCl+vt3EfQ2AFHOyLIg3uaMpDj9vAXlceMTQpjgyBp3SWqL74GrOdtltVS8UIZ/+Ig455+Z4DHaEbgpreXA==
+react-native-flipper@^0.187.1:
+  version "0.187.1"
+  resolved "https://registry.yarnpkg.com/react-native-flipper/-/react-native-flipper-0.187.1.tgz#1d9be0046effe07f4ae73899aa8a4e30474fb262"
+  integrity sha512-YN9Qql7ypL6UduJpHa5oF4573ls3vW1Q4YY8v7Zzpf5SYf9cscPb9vDgBuG8ktW/+bebOiE6wiIbmHy5wfF3Eg==
 
 react-native-gradle-plugin@^0.71.16:
   version "0.71.16"
@@ -8551,10 +8551,10 @@ type-fest@^0.7.1:
   resolved "https://registry.npmjs.org/type-fest/-/type-fest-0.7.1.tgz"
   integrity sha512-Ne2YiiGN8bmrmJJEuTWTLJR32nh/JdL1+PSicowtNb0WFpn59GK8/lfD61bVtzguz7b3PBt74nxpv/Pw5po5Rg==
 
-typescript@4.4.4:
-  version "4.4.4"
-  resolved "https://registry.npmjs.org/typescript/-/typescript-4.4.4.tgz"
-  integrity sha512-DqGhF5IKoBl8WNf8C1gu8q0xZSInh9j1kJJMqT3a94w1JzVaBU4EXOSMrz9yDqMT0xt3selp83fuFMQ0uzv6qA==
+typescript@^5.0.2:
+  version "5.0.2"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-5.0.2.tgz#891e1a90c5189d8506af64b9ef929fca99ba1ee5"
+  integrity sha512-wVORMBGO/FAs/++blGNeAVdbNKtIh1rbBL2EyQ1+J9lClJ93KiiKe8PmFIVdXhHcyv44SL9oglmfeSsndo0jRw==
 
 uglify-es@^3.1.9:
   version "3.3.9"
