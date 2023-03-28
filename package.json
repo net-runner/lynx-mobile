@@ -45,7 +45,7 @@
 		"@babel/runtime": "^7.12.5",
 		"@react-native-community/eslint-config": "^2.0.0",
 		"@testing-library/jest-native": "^5.4.2",
-		"@testing-library/react-native": "^9.1.0",
+		"@testing-library/react-native": "^12.0.1",
 		"@types/jest": "^29.5.0",
 		"@types/lodash": "^4.14.182",
 		"@types/react-native": "^0.67.8",
@@ -61,7 +61,7 @@
 		"mobx-logger": "^0.7.1",
 		"prettier": "2.6.2",
 		"react-native-flipper": "^0.150.0",
-		"react-test-renderer": "17.0.2",
+		"react-test-renderer": "^18.2.0",
 		"solidarity": "^3.0.4",
 		"solidarity-react-native": "^2.1.2",
 		"typescript": "4.4.4"
